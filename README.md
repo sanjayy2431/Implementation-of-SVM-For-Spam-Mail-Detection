@@ -57,7 +57,7 @@ Program to implement the SVM For Spam Mail Detection.
 ## result output:   
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/a83ef5c9-4219-45dd-b977-48fd46be7642)
 ## data.head()    
-![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/65e15ea4-0948-4502-a9b0-25d3a238390b)
+![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/65e15ea4-0948-4502-a9b0-25d3a238390b)                 
 ## data.info()     
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/cbc130ba-8dce-4228-997c-58ca8906c4c2)
 ## data.isnull().sum()    
