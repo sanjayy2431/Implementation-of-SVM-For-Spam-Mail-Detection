@@ -27,47 +27,45 @@ To write a program to implement the SVM For Spam Mail Detection.
 
 
 ## Program:
-```
+
 /* Program to implement the SVM For Spam Mail Detection.
 Developed by: SANJAY V
 RegisterNumber: 212223230188
 */
 
-import chardet
-file='spam.csv'
-with open(file, 'rb') as rawdata:
-result = chardet.detect(rawdata.read(100000))
-result
-import pandas as pd
-data = pd.read_csv("spam.csv",encoding="Windows-1252")
-data.head()
-data.info()
-data.isnull().sum()
+import chardet    
+file='spam.csv'   
+with open(file, 'rb') as rawdata:    
+result = chardet.detect(rawdata.read(100000))    
+result    
+import pandas as pd     
+data = pd.read_csv("spam.csv",encoding="Windows-1252")     
+data.head()    
+data.info()   
+data.isnull().sum()   
 
-X = data["v1"].values
-Y = data["v2"].values
-from sklearn.model_selection import train_test_split
-X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.2, random_state=0)
+X = data["v1"].values   
+Y = data["v2"].values    
+from sklearn.model_selection import train_test_split    
+X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.2, random_state=0)   
 
-from sklearn.feature_extraction.text import CountVectorizer
-cv = CountVectorizer()
-X_train = cv.fit_transform(X_train)
-X_test = cv.transform(X_test)
+from sklearn.feature_extraction.text import CountVectorizer    
+cv = CountVectorizer()    
+X_train = cv.fit_transform(X_train)   
+X_test = cv.transform(X_test)    
 
-from sklearn.svm import SVC
-svc=SVC()
-svc.fit(X_train,Y_train)
-Y_pred = svc.predict(X_test)
-print("Y_prediction Value: ",Y_pred)
+from sklearn.svm import SVC    
+svc=SVC()   
+svc.fit(X_train,Y_train)    
+Y_pred = svc.predict(X_test)    
+print("Y_prediction Value: ",Y_pred)   
 
-from sklearn import metrics
-accuracy=metrics.accuracy_score(Y_test,Y_pred)
-accuracy
-Program to implement the SVM For Spam Mail Detection..
-Developed by: 
-RegisterNumber:  
-*/
-```
+from sklearn import metrics    
+accuracy=metrics.accuracy_score(Y_test,Y_pred)    
+accuracy    
+Program to implement the SVM For Spam Mail Detection.    
+
+
 
 ## Output:
 ## result output:
