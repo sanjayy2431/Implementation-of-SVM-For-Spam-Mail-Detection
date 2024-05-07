@@ -17,20 +17,11 @@ To write a program to implement the SVM For Spam Mail Detection.
 6.Use a Support Vector Machine (SVM) to train a model on the training data and make predictions on the testing data.
 7.Finally, evaluate the accuracy of the model. 
 ```
-
-
-
-
-
-
-
-
-
 ## Program:
 
-/* Program to implement the SVM For Spam Mail Detection.
-Developed by: SANJAY V
-RegisterNumber: 212223230188
+/* Program to implement the SVM For Spam Mail Detection    
+Developed by: SANJAY V    
+RegisterNumber: 212223230188   
 */
 
 import chardet    
@@ -64,9 +55,6 @@ from sklearn import metrics
 accuracy=metrics.accuracy_score(Y_test,Y_pred)    
 accuracy    
 Program to implement the SVM For Spam Mail Detection.    
-
-
-
 ## Output:
 ## result output:
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/a83ef5c9-4219-45dd-b977-48fd46be7642)
@@ -81,11 +69,5 @@ Program to implement the SVM For Spam Mail Detection.
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/3d887584-92f3-43b4-84f5-d7867e16e0f9)
 ## Accuracy Value
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/28241601-5b4f-4d6c-96ea-f53202004fac)
-
-
-
-
-
-
 ## Result:
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
