@@ -34,23 +34,19 @@ data = pd.read_csv("spam.csv",encoding="Windows-1252")
 data.head()    
 data.info()   
 data.isnull().sum()   
-
 X = data["v1"].values   
 Y = data["v2"].values    
 from sklearn.model_selection import train_test_split    
 X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.2, random_state=0)   
-
 from sklearn.feature_extraction.text import CountVectorizer    
 cv = CountVectorizer()    
 X_train = cv.fit_transform(X_train)   
 X_test = cv.transform(X_test)    
-
 from sklearn.svm import SVC    
 svc=SVC()   
 svc.fit(X_train,Y_train)    
 Y_pred = svc.predict(X_test)    
 print("Y_prediction Value: ",Y_pred)   
-
 from sklearn import metrics    
 accuracy=metrics.accuracy_score(Y_test,Y_pred)    
 accuracy    
@@ -68,6 +64,6 @@ Program to implement the SVM For Spam Mail Detection.
 ## Y_prediction Value
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/3d887584-92f3-43b4-84f5-d7867e16e0f9)
 ## Accuracy Value
-![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/28241601-5b4f-4d6c-96ea-f53202004fac)
-## Result:
+![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/28241601-5b4f-4d6c-96ea-f53202004fac)   
+## Result:  
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
