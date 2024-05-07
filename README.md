@@ -16,6 +16,21 @@ To write a program to implement the SVM For Spam Mail Detection.
 6.Use a Support Vector Machine (SVM) to train a model on the training data and make predictions on the testing data.    
 7.Finally, evaluate the accuracy of the model.    
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Program:
 ```
 /*
