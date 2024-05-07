@@ -7,7 +7,8 @@ To write a program to implement the SVM For Spam Mail Detection.
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
+## Algorithm:
+```
 1.Import the required libraries.
 2.Read the data frame using pandas.
 3.Get the information regarding the null values present in the dataframe.
@@ -15,7 +16,7 @@ To write a program to implement the SVM For Spam Mail Detection.
 5.Convert the text data into a numerical representation using CountVectorizer.
 6.Use a Support Vector Machine (SVM) to train a model on the training data and make predictions on the testing data.
 7.Finally, evaluate the accuracy of the model. 
-
+```
 ## Program:
 ```
 /* Program to implement the SVM For Spam Mail Detection.
@@ -60,18 +61,18 @@ RegisterNumber:
 ```
 
 ## Output:
-# RESULT OUTPUT:
+## result output:
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/a83ef5c9-4219-45dd-b977-48fd46be7642)
-# data.head()
+## data.head()
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/65e15ea4-0948-4502-a9b0-25d3a238390b)
-# data.info()
+## data.info()
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/cbc130ba-8dce-4228-997c-58ca8906c4c2)
-# data.isnull().sum()
+## data.isnull().sum()
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/56a0cf18-6817-42e5-95c4-19f97afea382)
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/7906518d-655f-45df-9c02-5d4102f596c5)
-# Y_prediction Value
+## Y_prediction Value
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/3d887584-92f3-43b4-84f5-d7867e16e0f9)
-# Accuracy Value
+## Accuracy Value
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/28241601-5b4f-4d6c-96ea-f53202004fac)
 
 
