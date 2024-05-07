@@ -57,21 +57,22 @@ accuracy
 
 
 ## Output:
-### Result Output
+
+### Result Output   
 ![image](https://github.com/sanjayashwinP/Implementation-of-SVM-For-Spam-Mail-Detection/assets/147473265/1d6152c3-5724-44c3-b02a-62dcb39a92a5)
-### data.head()
+### data.head()    
 ![image](https://github.com/sanjayashwinP/Implementation-of-SVM-For-Spam-Mail-Detection/assets/147473265/3ff23046-1d9c-46e5-98bd-32a9fe0a9bab)
-### data.info()
+### data.info()    
 ![image](https://github.com/sanjayashwinP/Implementation-of-SVM-For-Spam-Mail-Detection/assets/147473265/79c5aace-560b-4bc8-8721-668f6084446e)
 
-### data.isnull().sum()
+### data.isnull().sum()    
 ![image](https://github.com/sanjayashwinP/Implementation-of-SVM-For-Spam-Mail-Detection/assets/147473265/cbf08416-c8f7-4de4-8658-0276c97d0526)
 ![image](https://github.com/sanjayashwinP/Implementation-of-SVM-For-Spam-Mail-Detection/assets/147473265/0a1217e0-fa3c-4f3f-bce8-bbf725dae9e1)
 
-### Y_prediction Value
+### Y_prediction Value    
 ![image](https://github.com/sanjayashwinP/Implementation-of-SVM-For-Spam-Mail-Detection/assets/147473265/8e300a9c-70c5-4b66-8524-672bb96b3bc1)
 
-### Accuracy Value
+### Accuracy Value   
 ![image](https://github.com/sanjayashwinP/Implementation-of-SVM-For-Spam-Mail-Detection/assets/147473265/8956be96-b15f-422d-918b-3c77de4f8b5f)
 
 ## Result:
