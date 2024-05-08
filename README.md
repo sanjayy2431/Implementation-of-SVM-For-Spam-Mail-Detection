@@ -50,13 +50,32 @@ from sklearn import metrics
 accuracy=metrics.accuracy_score(Y_test,Y_pred)    
 accuracy    
 Program to implement the SVM For Spam Mail Detection.    
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ## Output: 
 ## result output:   
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/a83ef5c9-4219-45dd-b977-48fd46be7642)
 ## data.head()    
-![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/65e15ea4-0948-4502-a9b0-25d3a238390b)                 
+![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/65e15ea4-0948-4502-a9b0-25d3a238390b)   
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## data.info()     
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/cbc130ba-8dce-4228-997c-58ca8906c4c2)
 ## data.isnull().sum()    
@@ -65,6 +84,30 @@ Program to implement the SVM For Spam Mail Detection.
 ## Y_prediction Value    
 ![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/3d887584-92f3-43b4-84f5-d7867e16e0f9)
 ## Accuracy Value    
-![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/28241601-5b4f-4d6c-96ea-f53202004fac)   
+![image](https://github.com/sanjayy2431/Implementation-of-SVM-For-Spam-Mail-Detection/assets/149365143/28241601-5b4f-4d6c-96ea-f53202004fac) 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ## Result:  
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
